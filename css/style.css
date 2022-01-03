@@ -23,7 +23,6 @@
 /* ---------------------Navbar style start-------------------------- */
 .header .nav {
   display: flex;
-  /* background-color: burlywood; */
   width: 100%;
   justify-content: space-between;
   position: absolute;
@@ -35,7 +34,6 @@
   padding: 1rem;
   margin-top: 0.3rem;
   margin-left: 2rem;
-  /* background-color: red; */
 }
 
 .header .nav .logo a {
@@ -100,10 +98,9 @@
   height: 100vh;
   background-color: black;
   color: #fff;
+  padding-top: 6rem;
 }
-.future-plan .plan-set {
-  padding-top: 5rem;
-}
+
 .future-plan .plan-set .plan-item1 {
   height: 500px;
   width: 400px;
@@ -135,4 +132,64 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+/* ---------------------------------about us css styling------------------------------- */
+.about-us {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  padding-top: 5rem;
+}
+.about-us .title-ab {
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.about-us .title-ab .about-title {
+  font-size: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  padding-bottom: 1rem;
+}
+.about-us .title-ab .about-title-sec {
+  font-size: 2rem;
+  font-family: "Shizuru", cursive;
+  font-weight: 600;
+}
+.about-us .about-list .about-item1,
+.about-us .about-list .about-item3 {
+  width: 300px;
+  height: auto;
+  color: #fff;
+}
+.about-us .about-list .about-item1 {
+  margin-right: 2rem;
+  text-align: right;
+}
+.about-us .about-list .about-item3 {
+  margin-left: 2rem;
+  text-align: left;
+}
+.about-us .about-list .about-item1 .about-item-d,
+.about-us .about-list .about-item3 .about-item-d {
+  padding-bottom: 2rem;
+}
+.about-us .about-list .about-item1 .about-item-d h3,
+.about-us .about-list .about-item3 .about-item-d h3 {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.about-us .about-list .about-item1 .about-item-d p,
+.about-us .about-list .about-item3 .about-item-d p {
+  line-height: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.about-us .about-list .about-item2 .about-img img {
+  margin-top: 1.8rem;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
