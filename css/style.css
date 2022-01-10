@@ -138,7 +138,7 @@
   background-color: black;
   height: 100vh;
   width: 100%;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 .about-us .title-ab {
   justify-content: center;
@@ -192,4 +192,111 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* --------------------------free course section css styling----------------------------------- */
+.free-course {
+  height: 100vh;
+  width: 100%;
+  padding-top: 3rem;
+  background-color: rgb(245, 71, 106);
+}
+.free-course .course-img {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(237, 237, 81);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.free-course .course-img img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.free-course .course-info .course-title .bold {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+.free-course .course-info .course-title {
+  font-size: 2.5rem;
+  color: #fff;
+  position: relative;
+  margin-left: -4rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.free-course .course-info .course-point {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  color: #fff;
+}
+.free-course .course-info .course-point ul li {
+  font-size: 1.3rem;
+}
+/* ------------------high impact section css styling start----------------------------- */
+.high-impact {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+.high-impact .impact-item {
+  padding-top: 7rem;
+  display: flex;
+}
+.high-impact .impact-item .impact-para {
+  width: 400px;
+  left: 0%;
+  top: 0%;
+  margin-left: 5rem;
+}
+.high-impact .impact-item .impact-para p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  line-height: 1.5rem;
+}
+.high-impact .impact-item .impact-img .impact-title {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #333;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  margin-left: -22rem;
+  margin-top: 20%;
+}
+.high-impact .impact-item .impact-img .impact-title h1 {
+  font-size: 3rem;
+  color: rgb(160, 155, 155);
+}
+.high-impact .impact-item .impact-img .impact-title h1 span {
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #000;
+}
+.high-impact .impact-item .impact-img {
+  background-color: yellow;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+}
+.high-impact .impact-item .impact-img img {
+  width: 500px;
+  height: 500px;
+  margin-top: -4rem;
+  margin-right: -2rem;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
